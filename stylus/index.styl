@@ -1,8 +1,8 @@
 mainColor = #FDC864
-
-#everything
-  background-color #f2f1f0
-  width 100%
+totalWidth = 1220px
+rightWidth = 491px
+leftWidth = totalWidth - rightWidth
+photoHeight = 569px
 
 #top-title
   height 125px
@@ -15,24 +15,25 @@ mainColor = #FDC864
 
 body
   font-weight 300
-  background-color transparent
+  background-color #f2f1f0
 
 #container
-  max-width 1250px
+  max-width totalWidth
   margin auto
 
 #main-photo-container
   position relative
-  height 590px
+  height photoHeight
 
 #photo
   position absolute
-  height 100%
+  height photoHeight
 
 #overlay
   position absolute
   right 0
-  height 100%
+  height photoHeight
+  width rightWidth
 
 #overlay-logo
   position absolute
@@ -48,9 +49,73 @@ body
   bottom -120px
   left 0px
   height 450px
+  z-index 2
 
 #prototype-description
   position absolute
   bottom 30px
   left 460px
   height 50px
+
+#second-row-container
+  position relative
+  background-color white
+  height 900px
+  z-index 1
+
+#sign-up
+  position absolute
+  right 0
+  width rightWidth
+  height 635px
+  background url('../images/blue.svg')
+  background-size cover
+
+#about-prototype
+  position absolute
+  top 100px
+  width leftWidth
+
+#about-prototype-header-background
+  position absolute
+  height 73px
+  width leftWidth
+
+#about-prototype-header
+  position absolute
+  font-size 49px
+  color white
+  margin-top -5px
+  padding-left 49px
+
+#text
+  margin-top 100px
+  font-size 18px
+  margin-left 56px
+  font-weight 400
+  color #878787
+
+  p
+    line-height 125%
+
+#bottom
+  position absolute
+  top 275px
+
+#feedback
+  position absolute
+  margin-top 780px
+  font-size 18px
+  margin-left auto
+  margin-right auto
+  width totalWidth
+  text-align center
+  left 0
+  font-weight 600
+  color #b2b2b2
+  letter-spacing 2px
+
+  a
+    color inherit
+  a:hover
+    color #878787
