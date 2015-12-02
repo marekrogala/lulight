@@ -178,16 +178,16 @@ html {
 }
 @media only screen and (min-width: 1050px) {
   #prototype2 {
-    bottom: -19.5vw;
-    left: -4.95vw;
-    height: 55.3vw;
+    bottom: -12.5vw;
+    left: -3.95vw;
+    height: 36.3vw;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
   #prototype2 {
-    bottom: -19.5vw;
-    left: -4.95vw;
-    height: 55.3vw;
+    bottom: -12.5vw;
+    left: -3.95vw;
+    height: 36.3vw;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -286,7 +286,7 @@ html {
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
   #about-prototype {
-    top: 8.4vw;
+    top: 6.8vw;
     width: 59.8vw;
   }
 }
@@ -300,13 +300,13 @@ html {
 }
 @media only screen and (min-width: 1050px) and (max-width: 1200px) {
   #about-prototype {
-    top: 8.4vw;
+    top: 6.9vw;
     width: 59.8vw;
   }
 }
 @media only screen and (min-width: 1200px) {
   #about-prototype {
-    top: 8.4vw;
+    top: 6.8vw;
     width: 62.8vw;
   }
 }
@@ -393,7 +393,7 @@ html {
 }
 #bottom {
   position: absolute;
-  top: 100vw;
+  top: 25vw;
   width: 100vw;
 }
 @media only screen and (max-width: 400px) {
