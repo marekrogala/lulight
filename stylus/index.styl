@@ -78,7 +78,7 @@ html
     right 0
 
   +mobile()
-    top 84vw
+    top 84.5vw
     height 115.7vw
 
   +between(1050px, 1200px)
@@ -133,9 +133,6 @@ html
 
 #prototype2
   position absolute
-  bottom -150px
-  left -38px
-  height 425px
   z-index 2
 
   +desktop()
@@ -149,8 +146,9 @@ html
     height 55.3vw
 
   +mobile()
-    height 70vw
-    bottom 112.7vw
+    height 54vw
+    bottom 107vw
+    left -6vw
 
 #prototype-description
   position absolute
@@ -186,6 +184,10 @@ html
 
   +mobile()
     height 211vw
+
+#second-row-container.high
+  +mobile()
+    height 282vw
 
 #sign-up
   position absolute
@@ -305,15 +307,29 @@ html
 
 #bottom1
   position absolute
-  top 26.6vw
-  left -0.8vw
-  height 32.5vw
+
+  +above(2)
+    top 26.6vw
+    left -0.8vw
+    height 32.5vw
+
+  +mobile()
+    top 148vw
+    left 0vw
+    width 100vw
 
 #bottom2
   position absolute
-  top 36.7vw
-  left 44.7vw
-  height 33.7vw
+
+  +above(2)
+    top 36.7vw
+    left 44.7vw
+    height 33.7vw
+
+  +mobile()
+    top 204vw
+    left 0vw
+    width 100vw
 
 #feedback
   position absolute
@@ -332,8 +348,12 @@ html
   width 100vw
 
   +mobile()
-    margin-top 194vw
+    margin-top 191vw
     font-size 3.8vw
+
+#feedback.high
+  +mobile()
+    margin-top: 264vw
 
 #chevron
   margin-top 3vw
@@ -348,3 +368,4 @@ p.exclamation
 
   +mobile()
     font-size 8.3vw
+    margin-top 0.9em
