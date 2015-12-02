@@ -283,10 +283,11 @@ html {
 }
 #about-prototype {
   position: absolute;
+  z-index: 3;
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
   #about-prototype {
-    top: 6.8vw;
+    top: 8.4vw;
     width: 59.8vw;
   }
 }
@@ -294,19 +295,18 @@ html {
   #about-prototype {
     top: 83vw;
     width: 100vw;
-    z-index: 2;
     background: #fff;
   }
 }
 @media only screen and (min-width: 1050px) and (max-width: 1200px) {
   #about-prototype {
-    top: 6.9vw;
+    top: 8.4vw;
     width: 59.8vw;
   }
 }
 @media only screen and (min-width: 1200px) {
   #about-prototype {
-    top: 6.8vw;
+    top: 8.4vw;
     width: 62.8vw;
   }
 }
@@ -408,9 +408,9 @@ html {
 }
 @media only screen and (min-width: 400px) {
   #bottom1 {
-    top: 26.6vw;
-    left: -0.8vw;
-    height: 32.5vw;
+    top: 28.6vw;
+    left: 1.2vw;
+    height: 29.5vw;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -425,9 +425,9 @@ html {
 }
 @media only screen and (min-width: 400px) {
   #bottom2 {
-    top: 36.7vw;
-    left: 44.7vw;
-    height: 33.7vw;
+    top: 31.7vw;
+    left: 32.7vw;
+    height: 42.7vw;
   }
 }
 @media only screen and (max-width: 400px) {
