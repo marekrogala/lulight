@@ -241,12 +241,12 @@ html {
 }
 @media only screen and (max-width: 400px) {
   #second-row-container {
-    height: 211vw;
+    height: 213vw;
   }
 }
 @media only screen and (max-width: 400px) {
   #second-row-container.high {
-    height: 282vw;
+    height: 285vw;
   }
 }
 #sign-up {
@@ -266,6 +266,7 @@ html {
   #sign-up {
     height: 129.2vw;
     width: 100vw;
+    z-index: 2;
   }
 }
 @media only screen and (min-width: 1050px) and (max-width: 1200px) {
