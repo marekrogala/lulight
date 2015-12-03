@@ -253,6 +253,7 @@ html {
   position: absolute;
   background: url("../images/blue.svg");
   background-size: cover;
+  z-index: 4;
 }
 @media only screen and (min-width: 400px) and (max-width: 1050px) {
   #sign-up {
@@ -395,6 +396,7 @@ html {
   position: absolute;
   top: 25vw;
   width: 100vw;
+  z-index: 5;
 }
 @media only screen and (max-width: 400px) {
   #bottom {
@@ -405,6 +407,7 @@ html {
 }
 #bottom1 {
   position: absolute;
+  z-index: 5;
 }
 @media only screen and (min-width: 400px) {
   #bottom1 {
@@ -422,6 +425,7 @@ html {
 }
 #bottom2 {
   position: absolute;
+  z-index: 5;
 }
 @media only screen and (min-width: 400px) {
   #bottom2 {
